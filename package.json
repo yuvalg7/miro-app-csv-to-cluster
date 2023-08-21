@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "start": "vite",
+    "start": "serve dist -l 3000",
     "build": "vite build",
-    "serve": "vite preview"
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "mirotone": "5"
+    "mirotone": "5",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "vite": "3.0.3"
