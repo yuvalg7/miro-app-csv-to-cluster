@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/assets/style.css" />
+    <script src="https://miro.com/app/static/sdk/v2/miro.js"></script>
+    <title>Clustering From Csv</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="grid container">
+        <div class="cs1 ce12">
+          <img src="/src/assets/logo.png" alt="Operad logo" />
+        </div>
+        <div class="cs1 ce12">
+          <h1>CSV to Miro Clustering App</h1>
+          <p>
+            This application allows you to upload a CSV file, and based on its content, it will automatically create clusters in Miro. Ensure your CSV is formatted correctly and start clustering!
+          </p>
+        </div>
+        <div class="cs1 ce12">
+          <input type="file" id="csvFileInput" accept=".csv" style="padding: 10px; cursor: pointer; margin-bottom: 20px;">
+        </div>
+    </div>
+    </div>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>
